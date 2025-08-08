@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1rem;
+}
+
+.prose code { 
+  @apply px-1 py-0.5 rounded bg-muted; 
+}
